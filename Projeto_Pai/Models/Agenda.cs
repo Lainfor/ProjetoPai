@@ -8,5 +8,6 @@ namespace Projeto_Pai.Models
     public class Agenda
     {
         public DateTime DataAtual { get; set; }
+        public List<DateTime> EventosAgenda { get; set; }
     }
 }
